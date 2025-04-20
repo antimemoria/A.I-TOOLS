@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A.I TOOLS</title>
+    <style>
+        /* Estilos CSS integrados */
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        
+        header {
+            text-align: center;
+            padding: 40px 0;
+            background: linear-gradient(135deg, #6e48aa 0%, #9d50bb 100%);
+            color: white;
+            border-radius: 10px;
+            margin-bottom: 30px;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin: 0;
+        }
+        
+        h2 {
+            color: #6e48aa;
+            border-bottom: 2px solid #6e48aa;
+            padding-bottom: 10px;
+            margin-top: 40px;
+        }
+        
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+        
+        .grid img, .grid video {
+            width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+        
+        .grid img:hover {
+            transform: scale(1.03);
+        }
+        
+        .image-card {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        .image-card p {
+            font-size: 0.9rem;
+            color: #666;
+            margin-top: 10px;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+            border-radius: 8px;
+        }
+        
+        footer a {
+            color: #9d50bb;
+            text-decoration: none;
+        }
+        
+        @media (max-width: 768px) {
+            .grid {
+                grid-template-columns: 1fr;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>🧠 A.I Generativa</h1>
+        <p>Imagén y video generativo</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Generación de Imágenes con IA</h2>
+            <div class="grid">
+                <div class="image-card">
+                    <img src="https://via.placeholder.com/600x400/6e48aa/ffffff?text=Imagen+IA+1" alt="Ejemplo de imagen generada por IA">
+                    <p><strong>Prompt:</strong> "_____"</p>
+                    <p><em>Generado con Stable Diffusion 2.1</em></p>
+                </div>
+                
+                <div class="image-card">
+                    <img src="https://via.placeholder.com/600x400/9d50bb/ffffff?text=Imagen+IA+2" alt="Ejemplo de imagen generada por IA">
+                    <p><strong>Prompt:</strong> "_____"</p>
+                    <p><em>Generado con MidJourney v5</em></p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Generación de Video con IA</h2>
+            <div class="grid">
+                <div class="image-card">
+                    <video controls>
+                        <source src="https://samplelib.com/lib/preview/mp4/sample-5s.mp4" type="video/mp4">
+                        
+                    </video>
+                    <p><strong>Prompt:</strong> "Animación de ciudad futurista con vehículos voladores"</p>
+                    <p><em>Generado con Runway ML</em></p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Perfiles de Instagram con Ejemplos Reales</h2>
+            <div class="grid">
+                <div class="image-card">
+                    <img src="https://via.placeholder.com/600x400/333333/ffffff?text=Captura+Instagram" alt="Ejemplo de perfil Instagram">
+                    <p>@EjemploIA_Arte - Arte generado con DALL-E</p>
+                </div>
+                <div class="image-card">
+                    <img src="https://via.placeholder.com/600x400/333333/ffffff?text=Captura+Instagram" alt="Ejemplo de perfil Instagram">
+                    <p>@VideosIA_Creativos - Videos generados con Synthesia</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2023 Demostración de Poderes Creativos de la IA</p>
+        <p>Sígueme en <a href="https://instagram.com/tuperfil" target="_blank">Instagram</a> para más ejemplos</p>
+    </footer>
+
+    <script>
+        // JavaScript básico para interactividad
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('Sitio cargado correctamente');
+            
+            // Ejemplo: Podrías añadir aquí funcionalidad para un carrusel o lightbox
+            // Más adelante puedes integrar APIs de IA para demostraciones en vivo
+        });
+    </script>
+</body>
+</html>
