@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IA GENERATIVA</title>
+    <title>IA GENERATIVA PARA EMPRESAS</title>
     <style>
         :root {
             --primary: #6e48aa;
             --secondary: #00d1ff;
+            --dark: #1a1a2e;
         }
         body {
             font-family: 'Arial', sans-serif;
@@ -16,6 +17,7 @@
             margin: 0 auto;
             padding: 20px;
             background-color: #f9f9f9;
+            color: #333;
         }
         header {
             text-align: center;
@@ -25,10 +27,16 @@
             border-radius: 10px;
             margin-bottom: 30px;
         }
+        h2 {
+            color: var(--primary);
+            border-bottom: 2px solid var(--secondary);
+            padding-bottom: 8px;
+            margin-top: 50px;
+        }
         .gallery {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-            gap: 25px;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: 30px;
             margin: 40px 0;
         }
         .card {
@@ -36,15 +44,16 @@
             border-radius: 10px;
             overflow: hidden;
             box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-            transition: transform 0.3s;
+            transition: all 0.3s ease;
         }
         .card:hover {
             transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.15);
         }
         .video-container {
             position: relative;
             padding-bottom: 56.25%;
-            margin-bottom: 15px;
+            background: var(--dark);
         }
         .video-container iframe {
             position: absolute;
@@ -54,11 +63,22 @@
             height: 100%;
             border: none;
         }
+        .card-body {
+            padding: 20px;
+        }
+        .card-body h3 {
+            margin-top: 0;
+            color: var(--dark);
+        }
+        .ig-embed {
+            height: 500px;
+            overflow: hidden;
+        }
         footer {
             text-align: center;
-            margin-top: 50px;
-            padding: 20px;
-            background-color: #333;
+            margin-top: 70px;
+            padding: 25px;
+            background-color: var(--dark);
             color: white;
             border-radius: 8px;
         }
@@ -66,23 +86,27 @@
             .gallery {
                 grid-template-columns: 1fr;
             }
+            .ig-embed {
+                height: 400px;
+            }
         }
     </style>
 </head>
 <body>
     <header>
-        <h1> I.A TOOLS</h1>
+        <h1>IA GENERATIVA PUBLICITARIA</h1>
         <p>Generación de imágenes, video y música con inteligencia artificial</p>
     </header>
 
     <main>
-        <!-- Sección 1: Videos de Facebook -->
+        <!-- Sección 1: Videos de YouTube -->
         <section>
-            <h2>Muestras</h2>
+            <h2>Demostraciones de Video IA</h2>
             <div class="gallery">
+                <!-- Video 1 -->
                 <div class="card">
                     <div class="video-container">
-                        <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fshare%2Fv%2F16DkRWFQJ6%2F&show_text=0" 
+                        <iframe src="https://www.youtube.com/embed/-1Q4JWnEYss?rel=0&modestbranding=1" 
                                 allowfullscreen></iframe>
                     </div>
                     <div class="card-body">
@@ -91,20 +115,22 @@
                     </div>
                 </div>
 
+                <!-- Video 2 -->
                 <div class="card">
                     <div class="video-container">
-                        <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fshare%2Fv%2F16CwRrUhRV%2F&show_text=0" 
+                        <iframe src="https://www.youtube.com/embed/o85BvXlCH8g?rel=0&modestbranding=1" 
                                 allowfullscreen></iframe>
                     </div>
                     <div class="card-body">
                         <h3>Runway + Kling + Sunno</h3>
-                        <p>Imagen generada en Runway, animada en Kling con música en Sunno</p>
+                        <p>Imagen generada en Runway, animada en Kling con música Sunno</p>
                     </div>
                 </div>
 
+                <!-- Video 3 -->
                 <div class="card">
                     <div class="video-container">
-                        <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fshare%2Fv%2F17gA2BYts4%2F&show_text=0" 
+                        <iframe src="https://www.youtube.com/embed/t4a2WXBo7kw?rel=0&modestbranding=1" 
                                 allowfullscreen></iframe>
                     </div>
                     <div class="card-body">
@@ -113,9 +139,10 @@
                     </div>
                 </div>
 
+                <!-- Video 4 -->
                 <div class="card">
                     <div class="video-container">
-                        <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2F1080403310786119%2F&show_text=0" 
+                        <iframe src="https://www.youtube.com/embed/HKXJXwMOYNI?rel=0&modestbranding=1" 
                                 allowfullscreen></iframe>
                     </div>
                     <div class="card-body">
@@ -123,28 +150,46 @@
                         <p>Comercial 100% generado por inteligencia artificial</p>
                     </div>
                 </div>
+
+                <!-- Video 5 -->
+                <div class="card">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/iWnhJr_cX8s?rel=0&modestbranding=1" 
+                                allowfullscreen></iframe>
+                    </div>
+                    <div class="card-body">
+                        <h3>Proyecto Especial IA</h3>
+                        <p>Demostración avanzada de generación multimodal</p>
+                    </div>
+                </div>
             </div>
         </section>
 
-        <!-- Sección 2: Portafolios Inspiradores -->
+        <!-- Sección 2: Perfiles Inspiradores -->
         <section>
             <h2>Referencias Creativas</h2>
             <div class="gallery">
+                <!-- Perfil 1 -->
                 <div class="card">
-                    <iframe src="https://www.aisam.xyz/" 
-                            style="width:100%; height:400px; border:none;"></iframe>
+                    <div class="ig-embed">
+                        <iframe src="https://www.instagram.com/promptmagazine.ai/embed" 
+                                style="width:100%; height:100%; border:none;"></iframe>
+                    </div>
                     <div class="card-body">
-                        <h3>Portafolio AIsam</h3>
-                        <p>Ejemplo avanzado de presentación de proyectos IA</p>
+                        <h3>Prompt Magazine</h3>
+                        <p>Exploración de arte generativo con IA</p>
                     </div>
                 </div>
 
+                <!-- Perfil 2 -->
                 <div class="card">
-                    <iframe src="https://www.instagram.com/theclueless.ai/embed" 
-                            style="width:100%; height:400px; border:none;"></iframe>
+                    <div class="ig-embed">
+                        <iframe src="https://www.instagram.com/samfinn.studio/embed" 
+                                style="width:100%; height:100%; border:none;"></iframe>
+                    </div>
                     <div class="card-body">
-                        <h3>The Clueless AI</h3>
-                        <p>Agencia de modelaje con modelos generados por IA</p>
+                        <h3>Sam Finn Studio</h3>
+                        <p>Arte digital y experimentación con IA</p>
                     </div>
                 </div>
             </div>
@@ -152,7 +197,7 @@
     </main>
 
     <footer>
-        <p>© 2025 GENERATIVE A.I - Todos los derechos reservados</p>
+        <p>© 2025 AI TOOLS - Todos los derechos reservados</p>
     </footer>
 </body>
 </html>
